@@ -1,0 +1,33 @@
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Файлы окружения и настроек
+.env
+config.py
+secrets.py
+
+# Файлы данных (НЕ ВЫКЛАДЫВАТЬ!)
+data/schedule.xlsx
+*.xlsx
+*.csv
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Системные файлы
+.DS_Store
+Thumbs.db
